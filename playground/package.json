@@ -1,0 +1,22 @@
+{
+  "name": "playground",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npx rsbuild dev",
+    "build": "npx rsbuild build",
+    "debug": "DEBUG=rsbuild && npx rsbuild dev"
+  },
+  "dependencies": {
+    "monaco-editor": "0.31.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rsbuild-plugin-monaco-editor-nls": "workspace:*"
+  },
+  "devDependencies": {
+    "@rsbuild/plugin-react": "^1.0.2",
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.6.2"
+  }
+}

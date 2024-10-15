@@ -20,6 +20,3 @@ export enum Languages {
   zh_hans = 'zh-hans',
   zh_hant = 'zh-hant',
 }
-
-
-

@@ -7,15 +7,14 @@ export default function monacoEditorNlsLoader(this: {
 }) {
   const options: PluginMonacoEditorNlsOptions = this.getOptions();
   const locale = options.locale ?? Languages.zh_hans;
-    // const localeData = getLocalizeMapping(locale);
-      const localeData = readRawLocaleFile(locale);
-    // return getLocalizeCode(localeData);
-    return getLocalizeCodeV2(localeData, locale);
+  // const localeData = getLocalizeMapping(locale);
+  const localeData = readRawLocaleFile(locale);
+  // return getLocalizeCode(localeData);
+  return getLocalizeCodeV2(localeData, locale);
 }
 
-
 function getLocalizeCode(CURRENT_LOCALE_DATA: string) {
-    return `
+  return `
         function _format(message, args) {
             var result;
             if (args.length === 0) {
@@ -43,7 +42,6 @@ function getLocalizeCode(CURRENT_LOCALE_DATA: string) {
         }
     `;
 }
-
 
 function getLocalizeCodeV2(localeData: string, locale: Languages) {
   return `
@@ -248,5 +246,3 @@ export function load(name, req, load, config) {
 }
     `;
 }
-
-

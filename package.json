@@ -1,6 +1,7 @@
 {
-  "name": "rsbuild-plugin-monaco-editor-nls",
-  "version": "0.1.1",
+  "name": "rsbuild-plugin-monaco-editor-nls-0.31.0",
+  "version": "0.0.1",
+  "repository": "https://github.com/pearone/rsbuild-plugin-monaco-editor-nls-0.31.0",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -46,7 +47,6 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@9.10.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"

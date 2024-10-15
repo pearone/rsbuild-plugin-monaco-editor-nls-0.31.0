@@ -21,8 +21,11 @@ export function readObjectLocaleFile(locale: Languages) {
   return parsedLocaleData;
 }
 
-export function getLocalizeMapping(locale: Languages,localeData:Record<string, any>|undefined=undefined) {
-    if(localeData)return JSON.stringify(localeData)
-    const locale_data_path = path.join(__dirname, `./locales/${locale}.json`);
-    return fs.readFileSync(locale_data_path) as unknown as string;
+export function getLocalizeMapping(
+  locale: Languages,
+  localeData: Record<string, object> | undefined = undefined,
+) {
+  if (localeData) return JSON.stringify(localeData);
+  const locale_data_path = path.join(__dirname, `./locales/${locale}.json`);
+  return fs.readFileSync(locale_data_path) as unknown as string;
 }

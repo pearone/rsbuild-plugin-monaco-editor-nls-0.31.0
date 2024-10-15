@@ -15,7 +15,8 @@ export default function monacoEditorLocalizedTransformLoader(
   const localeData = getLocalizeMapping(locale);
 
   if (
-    !/esm[\\\/]vs[\\\/].*nls\.js/.test(filepath) && !/.*.worker/.test(filepath)
+    !/esm[\\\/]vs[\\\/].*nls\.js/.test(filepath) &&
+    !/.*.worker/.test(filepath)
   ) {
     let _code = code;
     const re = /(?:monaco-editor\/esm\/)(.+)(?=\.js)/;

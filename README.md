@@ -1,21 +1,23 @@
-# rsbuild-plugin-monaco-editor-nls
+# rsbuild-plugin-monaco-editor-nls-0.31.0
 
-rsbuild-plugin-monaco-editor-nls is a Rsbuild plugin to localize monaco-editor.
+rsbuild-plugin-monaco-editor-nls-0.31.0 is a Rsbuild plugin to localize monaco-editor.
 
 <p>
-  <a href="https://npmjs.com/package/rsbuild-plugin-monaco-editor-nls">
-   <img src="https://img.shields.io/npm/v/rsbuild-plugin-monaco-editor-nls?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
+  <a href="https://www.npmjs.com/package/rsbuild-plugin-monaco-editor-nls-0.31.0">
+   <img src="https://img.shields.io/npm/v/rsbuild-plugin-monaco-editor-nls-0.31.0?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
   </a>
   <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="license" />
-  <a href="https://npmcharts.com/compare/rsbuild-plugin-monaco-editor-nls?minimal=true"><img src="https://img.shields.io/npm/dm/rsbuild-plugin-monaco-editor-nls.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="downloads" /></a>
 </p>
 
 ## Usage
 
+
+monaco-editor version is 0.31.0
+
 Install:
 
 ```bash
-npm add rsbuild-plugin-monaco-editor-nls -D
+npm add rsbuild-plugin-monaco-editor-nls-0.31.0 -D
 ```
 
 Add plugin to your `rsbuild.config.ts`:

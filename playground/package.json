@@ -8,10 +8,10 @@
     "debug": "DEBUG=rsbuild && npx rsbuild dev"
   },
   "dependencies": {
-    "monaco-editor": "0.31.1",
+    "monaco-editor": "0.33.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "rsbuild-plugin-monaco-editor-nls": "workspace:*"
+    "rsbuild-plugin-monaco-editor-nls-0.31.0": "workspace:*"
   },
   "devDependencies": {
     "@rsbuild/plugin-react": "^1.0.2",

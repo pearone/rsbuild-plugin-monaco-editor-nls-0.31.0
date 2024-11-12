@@ -42,15 +42,15 @@ importers:
   playground:
     dependencies:
       monaco-editor:
-        specifier: 0.31.1
-        version: 0.31.1
+        specifier: 0.33.0
+        version: 0.33.0
       react:
         specifier: ^18.3.1
         version: 18.3.1
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
-      rsbuild-plugin-monaco-editor-nls:
+      rsbuild-plugin-monaco-editor-nls-0.31.0:
         specifier: workspace:*
         version: link:..
     devDependencies:
@@ -1150,8 +1150,8 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     dev: true
 
-  /monaco-editor@0.31.1:
-    resolution: {integrity: sha512-FYPwxGZAeP6mRRyrr5XTGHD9gRXVjy7GUzF4IPChnyt3fS5WrNxIkS8DNujWf6EQy0Zlzpxw8oTVE+mWI2/D1Q==}
+  /monaco-editor@0.33.0:
+    resolution: {integrity: sha512-VcRWPSLIUEgQJQIE0pVT8FcGBIgFoxz7jtqctE+IiCxWugD0DwgyQBcZBhdSrdMC84eumoqMZsGl2GTreOzwqw==}
     dev: false
 
   /ms@2.1.3:
